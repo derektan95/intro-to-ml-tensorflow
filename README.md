@@ -12,6 +12,7 @@ conda create env -n tf-intro python==3.8
 conda activate tf-intro
 conda install tensorflow-gpu=2.3 tensorflow=2.3=mkl_py38h1fcfbd6_0  # Depends on computer (Works on RTX 2060)
 conda install matlibplot tensorflow-datasets jupyter notebook
+pip install h5py   # Current version not compatible with tf for model saving and loading...
 ```
 
 Creating conda environment from scratch:
