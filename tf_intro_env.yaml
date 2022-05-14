@@ -196,7 +196,7 @@ dependencies:
     - charset-normalizer==2.0.12
     - dill==0.3.4
     - flatbuffers==2.0
-    - gast==0.5.3
+    - gast==0.3.3
     - google-auth==2.6.6
     - google-auth-oauthlib==0.4.6
     - googleapis-common-protos==1.56.0
@@ -205,7 +205,7 @@ dependencies:
     - keras==2.8.0
     - libclang==14.0.1
     - markdown==3.3.7
-    - numpy==1.22.3
+    - numpy==1.18.5
     - promise==2.3
     - protobuf==3.20.1
     - pyasn1-modules==0.2.8
@@ -216,6 +216,7 @@ dependencies:
     - tensorboard-data-server==0.6.1
     - tensorboard-plugin-wit==1.8.1
     - tensorflow-datasets==4.5.2
+    - tensorflow-hub==0.12.0
     - tensorflow-io-gcs-filesystem==0.25.0
     - tensorflow-metadata==1.7.0
     - termcolor==1.1.0
