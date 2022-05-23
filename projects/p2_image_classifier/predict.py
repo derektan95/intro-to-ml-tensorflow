@@ -30,13 +30,12 @@ class DL_Utils():
     """
     
     def __init__(self, top_k, class_names_path):
-        """Initialize an Agent object.
+        """Initialize hyper-params.
         
         Params
         ======
-            state_size (int): dimension of each state
-            total_state_size (int): dimension of each state
-            action_size (int): dimension of each action
+            top_k (int): Top k predictions to output
+            class_names_path (str): file path that maps indices to flower names
         """
 
         self.top_k = top_k
