@@ -1,3 +1,0 @@
-Udacity_AZDIAS_Subset/
-Udacity_CUSTOMERS_Subset/
-AZDIAS_Feature_Summary/
